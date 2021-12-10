@@ -1,0 +1,46 @@
+input:focus{
+  outline: none;
+}
+
+body {
+  font-size: 15pt;
+  background: linear-gradient(45deg, #0075FF, #66ACFF);
+}
+
+#password-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(134deg, #0091FF, #A15CDC);
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#password-border {
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+input {
+  border-style: none;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif !important;
+  width: 200px;
+  font-size: 0.9rem;
+}
+
+i {
+  font-size: 1.2em;
+  color: #A15CDC;
+  margin-right: -10px;
+}
+
+button {
+  outline: none;
+  border-style: none;
+  background: transparent;
+}
